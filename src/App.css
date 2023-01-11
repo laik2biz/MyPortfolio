@@ -36,3 +36,242 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: linear-gradient(to bottom right, purple, rgb(0, 119, 255));
+
+  height: 2000px;
+}
+
+.initials {
+  font-size: 70px;
+  font-family: cursive;
+  color: white;
+  font-style: italic;
+}
+
+.button1 {
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+  font-family: "Boudin Thin", sans-serif;
+  padding: 70px;
+  transition: transform 0.2s;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.button1:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+strong {
+  font-family: cursive;
+}
+
+.title {
+  font-family: "Masiku", sans-serif;
+}
+
+.portfolio {
+  background-color: black;
+  background-image: linear-gradient(45deg, #0b267e, #4088da);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.skills-title {
+  font-size: 50px;
+}
+
+@import url("https://fonts.cdnfonts.com/css/high-fiber");
+@import url("https://fonts.cdnfonts.com/css/gremlin-free-trial");
+@import url("https://fonts.cdnfonts.com/css/grover-heavy");
+@import url("https://fonts.cdnfonts.com/css/boudin-thin");
+@import url("https://fonts.cdnfonts.com/css/masiku");
+@import url("https://fonts.cdnfonts.com/css/zacky-sans-medium");
+@import url("https://fonts.cdnfonts.com/css/share-dong");
+@import url("https://fonts.cdnfonts.com/css/yorkwhiteletter");
+@import url("https://fonts.cdnfonts.com/css/summary-notes");
+
+.myavatar {
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.me-section {
+  margin-top: 50px;
+}
+
+.bio {
+  display: inline-block;
+  font-size: 22px;
+  font-family: "Grover Heavy", sans-serif;
+  margin-left: 50px;
+}
+
+.skills {
+  padding-top: 50px;
+  font-size: 50px;
+}
+
+.tabs {
+  padding-right: 80px;
+}
+
+.intro {
+  font-family: "Boudin Thin", sans-serif;
+}
+
+.heart {
+  color: red;
+  padding-left: 40px;
+}
+
+.front-title {
+  color: white;
+  font-family: "ZackySans", sans-serif;
+  margin-left: 20px;
+}
+
+.fam {
+  float: left;
+}
+
+.cursor {
+  background: lime;
+  line-height: 17px;
+  margin-left: 3px;
+  animation: blink 0.8s infinite;
+  width: 2px;
+  height: 25px;
+}
+
+@keyframes blink {
+  0% {
+    background: transparent;
+  }
+  50% {
+    background: #fff;
+  }
+  100% {
+    background: transparent;
+  }
+}
+
+.techstack {
+  font-family: "Share Dong", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+.frontend {
+  color: rgb(236, 204, 19);
+  display: inline-block;
+}
+
+.backend {
+  display: inline-block;
+  color: rgb(255, 94, 0);
+}
+
+hr.rounded {
+  border-top: 8px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 70%;
+}
+
+.techimg {
+  padding-bottom: 10px;
+}
+
+.wrap-circles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background: #6da0ff;
+  overflow: hidden;
+}
+
+.circle .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 115px;
+  height: 115px;
+  background: #000;
+  border-radius: 50%;
+  font-size: 1.85em;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.form-container {
+  /*   border-radius: 5%;
+ */
+  border-style: ridge;
+  border-color: white;
+  border-width: thick;
+  max-width: 50%;
+  background-size: cover;
+  background-image: url("https://www.technipages.com/wp-content/uploads/2020/12/gmail-notification-wont-go-away-600x361.png");
+}
+
+.work-title {
+  font-family: "yorkwhiteletter", sans-serif;
+  font-size: 80px;
+}
+
+.help {
+  font-family: "Summary Notes", sans-serif;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.linkedin {
+  display: inline-block;
+}
+
+.input {
+  border-width: 5px;
+  margin-right: 20px;
+}
+
+.textbox {
+  border-width: 5px;
+  margin-right: 20px;
+  height: 100px;
+  width: 500px;
+}
+
+.sendbutton {
+  border-radius: 15%;
+  height: 40px;
+  font-family: "Share Dong", sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+}
