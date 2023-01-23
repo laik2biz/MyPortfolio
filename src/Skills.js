@@ -24,9 +24,9 @@ function Skills() {
                 navigate("/Home");
               }}
             >
-              <strong>
+              <span className="hometab">
                 {"<"}Home{"/>"}
-              </strong>
+              </span>
             </div>
             <div
               className="button1"
@@ -34,9 +34,9 @@ function Skills() {
                 navigate("/Skills");
               }}
             >
-              <strong>
+              <span className="skillstab">
                 {"<"}Skills{"/>"}
-              </strong>
+              </span>
             </div>
             <div
               className="button1"
@@ -44,9 +44,9 @@ function Skills() {
                 navigate("/Projects");
               }}
             >
-              <strong>
+              <span className="collabtab">
                 {"<"}Collab{"/>"}
-              </strong>
+              </span>
             </div>
           </div>
         </center>

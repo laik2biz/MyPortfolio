@@ -1,3 +1,11 @@
+@import url("https://fonts.cdnfonts.com/css/masiku");
+@import url("https://fonts.cdnfonts.com/css/zacky-sans-medium");
+@import url("https://fonts.cdnfonts.com/css/share-dong");
+@import url("https://fonts.cdnfonts.com/css/yorkwhiteletter");
+@import url("https://fonts.cdnfonts.com/css/summary-notes");
+@import url("https://fonts.cdnfonts.com/css/zen-kurenaido");
+@import url("https://fonts.cdnfonts.com/css/lt-binary-neue");
+
 .App {
   text-align: center;
 }
@@ -39,13 +47,12 @@
 
 body {
   background-image: linear-gradient(to bottom right, purple, rgb(0, 119, 255));
-
   height: 2000px;
 }
 
 .initials {
   font-size: 70px;
-  font-family: cursive;
+  font-family: "Masiku", sans-serif;
   color: white;
   font-style: italic;
 }
@@ -92,17 +99,7 @@ strong {
   font-size: 50px;
 }
 
-@import url("https://fonts.cdnfonts.com/css/high-fiber");
-@import url("https://fonts.cdnfonts.com/css/gremlin-free-trial");
-@import url("https://fonts.cdnfonts.com/css/grover-heavy");
-@import url("https://fonts.cdnfonts.com/css/boudin-thin");
-@import url("https://fonts.cdnfonts.com/css/masiku");
-@import url("https://fonts.cdnfonts.com/css/zacky-sans-medium");
-@import url("https://fonts.cdnfonts.com/css/share-dong");
-@import url("https://fonts.cdnfonts.com/css/yorkwhiteletter");
-@import url("https://fonts.cdnfonts.com/css/summary-notes");
-
-.myavatar {
+.profilepic {
   border-radius: 10px;
   margin-left: 50px;
   margin-top: 10px;
@@ -115,9 +112,11 @@ strong {
 
 .bio {
   display: inline-block;
-  font-size: 22px;
-  font-family: "Grover Heavy", sans-serif;
+  font-size: 30px;
+  font-family: "Zen Kurenaido", sans-serif;
   margin-left: 50px;
+  padding-top: 30px;
+  color: white;
 }
 
 .skills {
@@ -130,12 +129,8 @@ strong {
 }
 
 .intro {
-  font-family: "Boudin Thin", sans-serif;
-}
-
-.heart {
-  color: red;
-  padding-left: 40px;
+  font-family: "LT Binary Neue Round", sans-serif;
+  color: white;
 }
 
 .front-title {
@@ -231,8 +226,6 @@ hr.rounded {
 }
 
 .form-container {
-  /*   border-radius: 5%;
- */
   border-style: ridge;
   border-color: white;
   border-width: thick;
@@ -244,6 +237,7 @@ hr.rounded {
 .work-title {
   font-family: "yorkwhiteletter", sans-serif;
   font-size: 80px;
+  color: white;
 }
 
 .help {
@@ -274,4 +268,29 @@ hr.rounded {
   font-family: "Share Dong", sans-serif;
   font-size: 30px;
   cursor: pointer;
+}
+
+.intro {
+  margin-left: 40px;
+}
+
+.getext {
+  color: purple;
+  font-weight: bold;
+}
+
+.hometab {
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+.skillstab {
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+.collabtab {
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+.emailtext {
+  color: blue;
 }

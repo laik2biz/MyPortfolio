@@ -15,9 +15,9 @@ function Projects() {
               navigate("/Home");
             }}
           >
-            <strong>
+            <span className="hometab">
               {"<"}Home{"/>"}
-            </strong>
+            </span>
           </div>
           <div
             className="button1"
@@ -25,9 +25,9 @@ function Projects() {
               navigate("/Skills");
             }}
           >
-            <strong>
+            <span className="skillstab">
               {"<"}Skills{"/>"}
-            </strong>
+            </span>
           </div>
           <div
             className="button1"
@@ -35,9 +35,9 @@ function Projects() {
               navigate("/Projects");
             }}
           >
-            <strong>
+            <span className="collabtab">
               {"<"}Collab{"/>"}
-            </strong>
+            </span>
           </div>
         </div>
       </center>
@@ -45,15 +45,12 @@ function Projects() {
         <div className="body-1">
           <br />
           <center>
-            <h1 className="work-title">Happy To Work With You!</h1>
+            <h1 className="work-title">Connect With Me</h1>
           </center>
           <center>
             <Email />
           </center>
-          <div className="help">
-            If you're in need of any assistance with your coding projects, I'd
-            be happy to help!
-          </div>
+          <div className="help">Let's chat!</div>
         </div>
       </center>
     </div>

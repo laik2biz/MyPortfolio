@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
+import MyPhoto from "./KL.jpg";
 
 function Home() {
   let navigate = useNavigate();
@@ -15,6 +16,11 @@ function Home() {
             className="linkedin"
             url="https://www.linkedin.com/in/kiong-lao-24826a252/"
             network="linkedin"
+          />{" "}
+          <SocialIcon
+            className="linkedin"
+            url="https://github.com/laik2biz"
+            network="github"
           />
         </em>
         <center>
@@ -34,9 +40,9 @@ function Home() {
               navigate("/Home");
             }}
           >
-            <strong>
-              {"<"}Home{"/>"}
-            </strong>
+            {"<"}
+            <span className="hometab">Home</span>
+            {"/>"}
           </div>
           <div
             className="button1"
@@ -44,9 +50,9 @@ function Home() {
               navigate("/Skills");
             }}
           >
-            <strong>
-              {"<"}Skills{"/>"}
-            </strong>
+            {"<"}
+            <span className="skillstab">Skills</span>
+            {"/>"}
           </div>
           <div
             className="button1"
@@ -54,9 +60,9 @@ function Home() {
               navigate("/Projects");
             }}
           >
-            <strong>
+            <span className="collabtab">
               {"<"}Collab{"/>"}
-            </strong>
+            </span>
           </div>
         </div>
       </center>
@@ -64,26 +70,42 @@ function Home() {
       <div className="me-section">
         <center>
           <h1 className="intro">
-            print("Hi, I'm Kiong Lao!")
+            print("Greetings! Nice to meet you!")
             <div className="cursor"></div>
           </h1>
           <img
-            className="myavatar"
+            className="profilepic"
+            id="box"
             height="300"
             alt="myphoto"
-            src="https://www.meme-arsenal.com/memes/9515c7785615c87d7baad5cfff7938ac.jpg"
+            src={MyPhoto}
           />
         </center>
-        {/* <p className="bio">
-          Hi, my name is Kiong Lao. Technology keeps me interested and coding
-          keeps me sharp. I love Frontend Development!
-        </p> */}
       </div>
-      <center>
-        <h1 className="heart">
-          &#10084; <div className="front-title">Frontend Development</div>
-        </h1>
-      </center>
+      <p className="bio">
+        <center>
+          Hi, my name is Kiong Lao. My love and passion for technology started
+          when I first took a Website Development class back in highschool.
+          Being able to bring ideas to life on a website sparked my creativity
+          and from there on, I've always enjoyed building out websites and web
+          applications. Throughout the years being in tech, I found myself to be
+          very resourceful and a critical thinker when it came to solving
+          problems. Any challenges that I have faced, I had always found a way
+          to figure it out. One of my biggest achievements has been getting the
+          opportunity to work on a team to build a cubicle reservation web
+          application for <span className="getext">GE Healthcare's RFP</span>. I
+          very much enjoy Frontend Development but am continuing to learn other
+          skills outside of development. I plan on forever being a lifelong
+          learner in not just the tech world, but also in life. Please send me a
+          message through the{" "}
+          <Link to="/Projects">
+            <u className="emailtext">email</u>
+          </Link>{" "}
+          form, I would love to speak and get to know you. You can also connect
+          with me on Linkedin or view my Github profile by clicking on the icons
+          at the top left corner of this page. Thanks for stopping by!
+        </center>
+      </p>
     </div>
   );
 }
