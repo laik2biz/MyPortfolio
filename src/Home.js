@@ -101,9 +101,9 @@ function Home() {
           <Link to="/Projects">
             <u className="emailtext">email</u>
           </Link>{" "}
-          form, I would love to speak and get to know you. You can also connect
-          with me on Linkedin or view my Github profile by clicking on the icons
-          at the top left corner of this page. Thanks for stopping by!
+          form if you have any questions. You can also connect with me on
+          Linkedin or view my Github profile by clicking on the icon at the top
+          left corner of this page. Thanks for stopping by!
         </center>
       </p>
     </div>
